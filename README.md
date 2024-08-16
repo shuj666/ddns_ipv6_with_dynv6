@@ -222,7 +222,11 @@ Dynv6 响应: OK
      where python
      ```
      
+     部分电脑的`C:\Users\你的用户名\AppData\Local\Microsoft\WindowsApps\python.exe`路径它可能可能有一些限制，比如不能使用某些命令行参数。无法使用的。
+     `where python`查不到也没有关系
+     python.exe真实目录一般位于C:\Users\你的用户名\AppData\Local\Programs\Python\Python39\目录下
      
+     若是指定安装则写指定安装目录
 
 5. **设置服务启动类型**:
 
